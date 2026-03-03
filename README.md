@@ -1,41 +1,40 @@
-# 1. 프로젝트 제목
+# 1. プロジェクト名
 
-* 4강 1조 발달 장애인 대기 지원 프로그램 
+- 発達障害者の待機者支援プログラム
 
-# 2. 프로젝트 개요
+# 2. プロジェクト概要
 
-+ 발달 장애인들에게 가장 필요한 순간 적합한 도움을 줄 수 있는 시스템을 구현하고자 했습니다.
+- 발달 장애인들에게 가장 필요한 순간 적합한 도움을 줄 수 있는 시스템을 구현하고자 했습니다.
 
   온라인 기반 운영을 통해 접근성을 높이고 직접 대면을 해야 하는 시간과 비용을 절감하고자 하였습니다.
 
   또한 종이 서류 작성 최소화로 기관 담당자와 관리자의 업무 효율을 높일 수 있는 기대 효과를 예측하였습니다.
 
-# 3. 개발환경
+# 3. 環境
 
-* 분석 설계 : figma, ERD Cloud, Google Workspace
+- 分析・設計 : figma, ERD Cloud, Google Workspace
 
-* 통합 개발 환경 : Visual Studio Code
+- IDE : Visual Studio Code
 
-* 형상관리 툴 : GitHub
+- ソースコード管理 : GitHub
 
-* 데이터베이스 : MariaDB
+- データベース : MariaDB
 
-* 배포 환경 : GitHub actions, NAVER Cloud
+- デプロイ : GitHub actions, NAVER Cloud
 
-* 프론트엔드 : Vue, PRIMEVUE, Pinia, HTML, CSS, JavaScript
+- フロントエンド : Vue, PRIMEVUE, Pinia, HTML, CSS, JavaScript
 
-* 백엔드 : Node, express
+- バックエンド : Node, express
 
+# 4. ERD図
 
-# 4. 데이터 베이스 설계
+![イメージルーティングエラー](images/ERD설계.png)
 
-![이미지 경로 오류](images/ERD설계.png)
+# 5. サイト構成図
 
-# 5. 사이트 구성도
+![イメージルーティングエラー](images/사이트구성도.png)
 
-![이미지 경로 오류](images/사이트구성도.png)
-
-# 6. 프로젝트 팀 구성 및 역할
+# 6. チーム役割
 
 배진욱 : 조장, 기관 담당자, 기관 관리자, 업무처리 프로세스
 
@@ -47,8 +46,8 @@
 
 김동우 : DB서버 구축 및 관리, 회원가입, 시스템 관리자
 
-# 7. 데모 시연영상
+# 7. 実演動画
 
-**시연 영상:** [4강 1조 발달 장애인 대기 지원 프로그램](https://youtu.be/3tPxfIJvv7o)
+**実演動画:** [発達障害者の待機者支援プログラム](https://youtu.be/3tPxfIJvv7o)
 
-# 8. [구현한 화면 디렉토리 미리보기](directory.txt)
+# 8. [私が実装した機能のディレクトリ](directory.txt)

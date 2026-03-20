@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+
 // 회원가입 제출 처리 함수
 const handleSignUp = async () => {
   // 에러 메시지 초기화
@@ -134,5 +135,5 @@ const closePostcode = () => {
 };
 
 // 必須
-export default { checkIdDuplicate, handleSignUp, searchZipcode, addressSearched, closePostcode }; 
+export { checkIdDuplicate, handleSignUp, searchZipcode, addressSearched, closePostcode }; 
 

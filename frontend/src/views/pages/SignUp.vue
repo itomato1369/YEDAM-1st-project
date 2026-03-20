@@ -1,9 +1,13 @@
 <script setup>
 import { ref } from 'vue';
-import { useRouter } from 'vue-router'; // 라우팅을 위해 추가n
+import { useRouter } from 'vue-router'; // 라우팅을 위해 추가
 
 // JavaScript 문 분리하기
-import { checkIdDuplicate, handleSignUp, searchZipcode, addressSearched, closePostcode } from '@/assets/js/signUp.js';
+import { checkIdDuplicate, 
+  handleSignUp, 
+  searchZipcode, 
+  addressSearched, 
+  closePostcode } from '@/assets/js/signUp.js';
 
 // 상태 변수 정의 (추가된 필드 포함)
 const router = useRouter();
@@ -20,7 +24,7 @@ const zipcode = ref(''); // 우편번호
 const addressMain = ref(''); // 기본 주소
 const addressDetail = ref(''); // 상세 주소
 const apiLoadError = ref(''); // Daum API 연동 에러 상태 변수
-
+// 생년월일 분리
 const birthYear = ref(''); // 생년월일
 const birthMonth = ref('');
 const birthDay = ref('');
